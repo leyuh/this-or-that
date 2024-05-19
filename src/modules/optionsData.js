@@ -15,7 +15,7 @@ const OPTIONS_DATA = [
         "image": "https://images.stockcake.com/public/5/2/a/52af2785-792b-43d4-9681-afd5a29839cc_large/love-hearts-decoration-stockcake.jpg"
     },
     {
-        "name": "Robert Downey Jr.",
+        "name": "Robert Downey Jr",
         "desc": "The backbone of Marvel.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg/220px-Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg"
     },

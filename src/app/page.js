@@ -27,7 +27,7 @@ function OptionDiv ({
 
 
   return (
-    <div className={`bg-gray-200 grow rounded-md relative p-4 ${!disabled && "option-div"} w-[50%]`} onClick={() => {
+    <div className={`bg-gray-200 grow rounded-md relative p-1 md:p-4 ${!disabled && "option-div"} w-[50%]`} onClick={() => {
       console.log(neverPicked, lineUp);
       if (disabled) return;
 
@@ -44,7 +44,7 @@ function OptionDiv ({
       setOption(options[nextIndex])
       setNextIndex(prev => Math.min(prev + 1, OPTIONS_DATA.length));
     }}>
-      <div className="overflow-hidden w-[200px] h-[200px] mx-auto mt-4 relative">
+      <div className="overflow-hidden w-[100px] md:w-[200px] h-[100px] md:h-[200px] mx-auto mt-4 relative">
         <Image 
           src={image}
           alt={name}
@@ -58,8 +58,8 @@ function OptionDiv ({
         />
       </div>
       
-      <h3 className="text-center font-bold my-2 text-md">{name}</h3>
-      <p className="text-center text-sm">{desc}</p>
+      <h3 className="text-center font-bold my-2 text-sm md:text-md">{name}</h3>
+      <p className="text-center text-xs md:text-sm">{desc}</p>
     </div>
   )
 }
