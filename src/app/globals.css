@@ -9,3 +9,7 @@ body {
 .option-div:hover {
   cursor: pointer;
 }
+
+.trash-btn:hover {
+  @apply underline;
+}

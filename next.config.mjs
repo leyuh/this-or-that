@@ -8,11 +8,15 @@ const nextConfig = {
             },
             {
                 protocol: "https",
-                hostname: "i.abcnewsfe.com*",
+                hostname: "upload.wikimedia.org*",
             },
             {
                 protocol: "https",
-                hostname: "static01.nyt.com*",
+                hostname: "www.wikipedia.org*",
+            },
+            {
+                protocol: "https",
+                hostname: "rwfs.renweb.com*",
             },
         ]
     }
